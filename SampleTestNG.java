@@ -25,7 +25,7 @@ public class SampleTestNG {
 	//	driver=new ChromeDriver();
 		driver.get(url);
 		String actualTitle1 = driver.getTitle();
-		System.out.println("Actual title = "+actualTitle1);
+		System.out.println("Actual title is = "+actualTitle1);
 		dr = driver;
 	}
 	
